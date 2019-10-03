@@ -25,10 +25,10 @@
             <ComboBoxItem>Maestro</ComboBoxItem>
         </ComboBox>
 
-        <Button x:Name="btnAgregar" Content="Agregar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="104" Margin="312,62,0,0" FontSize="20" Height="36"/>
-        <Grid x:Name="gridInformacion" HorizontalAlignment="Left" Height="280" Margin="10,133,0,0" VerticalAlignment="Top" Width="467"/>
-        <Button x:Name="btnBorrar" Content="Borrar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="104" Margin="360,418,0,0" FontSize="20" Height="36"/>
-        <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="104" Margin="241,418,0,0" FontSize="20" Height="36"/>
+        <Button x:Name="btnAgregar" Content="Agregar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="104" Margin="312,62,0,0" FontSize="20" Height="36" Click="BtnAgregar_Click"/>
+        <Grid x:Name="gridInformacion" HorizontalAlignment="Left" Height="280" Margin="25,10,0,0" VerticalAlignment="Top" Width="467"/>
+        <Button Visibility="Hidden" x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="104" Margin="360,418,0,0" FontSize="20" Height="36" Click="BtnCancelar_Click"/>
+        <Button Visibility="Hidden" x:Name="btnGuardar" Content="Guardar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="104" Margin="241,418,0,0" FontSize="20" Height="36" Click="BtnGuardar_Click"/>
 
 
 

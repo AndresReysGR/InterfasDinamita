@@ -24,5 +24,32 @@ namespace InterfasDinamita
         {
             InitializeComponent();
         }
+
+        private void BtnAgregar_Click(object sender, RoutedEventArgs e)
+        {
+            gridInformacion.Children.Clear();
+            switch(cbUsuario.SelectedIndex)
+            {
+                case 0: gridInformacion.Children.Add(new Alumno());
+                    break;
+
+                case 1:
+                    gridInformacion.Children.Add(new Docente());
+                    break;
+            }
+        }
+
+        private void BtnGuardar_Click(object sender, RoutedEventArgs e)
+        {
+            gridInformacion.Children.Clear();
+        }
+
+        private void BtnCancelar_Click(object sender, RoutedEventArgs e)
+        {
+            gridInformacion.Children.Clear();
+        }
+
+
+
     }
 }
