@@ -16,9 +16,16 @@
             <GradientStop Color="#FF6FA2CC" Offset="0.823"/>
             <GradientStop Color="#FF92DED4" Offset="0.45"/>
             <GradientStop Color="#FFE6DAC8" Offset="0.14"/>
+            <GradientStop Color="#FFC3CCC1" Offset="0.323"/>
+            <GradientStop Color="#FFA4DDBC" Offset="0.603"/>
+            <GradientStop Color="#FF75A7CF" Offset="0.807"/>
+            <GradientStop Color="#FF89B9DA" Offset="0.753"/>
+            <GradientStop Color="#FF879BE0" Offset="0.89"/>
+            <GradientStop Color="#FFC1DBC3" Offset="0.057"/>
+            <GradientStop Color="#FFE3C7BA" Offset="0.22"/>
         </LinearGradientBrush>
     </Window.Background>
-    <Grid>
+    <Grid Margin="0,0,2,8">
         <TextBlock HorizontalAlignment="Left" Margin="63,64,0,0" TextWrapping="Wrap" Text="Nuevo: " VerticalAlignment="Top" Height="34" Width="72" FontSize="20"/>
         <ComboBox x:Name="cbUsuario" HorizontalAlignment="Left" Margin="152,64,0,0" VerticalAlignment="Top" Width="137" FontSize="20" Height="34">
             <ComboBoxItem>Alumno</ComboBoxItem>

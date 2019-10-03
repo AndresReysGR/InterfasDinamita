@@ -4,8 +4,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:InterfasDinamita"
-             mc:Ignorable="d" 
-                 mc:Ignorable="d" HorizontalAlignment="Left" Height="180.007" Margin="10,133,0,0" VerticalAlignment="Top" Width="236.704">
+          
+             HorizontalAlignment="Left" Height="180.007" Margin="10,133,0,0" VerticalAlignment="Top" Width="236.704">
     <UserControl.Background>
         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
             <GradientStop Color="#FF2EBFF5" Offset="0"/>
@@ -18,9 +18,9 @@
         <Label Content="TItulo: " HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" FontSize="12"/>
         <TextBox x:Name="txbNombreD" HorizontalAlignment="Left" Height="26" Margin="89,24,0,0" TextWrapping="Wrap" Text="TextBox" FontSize="12" VerticalAlignment="Top" Width="83"/>
         <TextBox x:Name="txbCodigoD" HorizontalAlignment="Left" Height="27" Margin="91,57,0,0" TextWrapping="Wrap" Text="TextBox" FontSize="12" VerticalAlignment="Top" Width="81"/>
-        <TextBox x:Name="txbTituloD" HorizontalAlignment="Left" Height="28" Margin="91,96,0,0" TextWrapping="Wrap" Text="TextBox" FontSize="12" VerticalAlignment="Top" Width="81"/>
-        <TextBox x:Name="txbMateriaD" HorizontalAlignment="Left" Height="26" Margin="85,137,0,0" TextWrapping="Wrap" Text="TextBox" FontSize="12" VerticalAlignment="Top" Width="87"/>
-        <Label Content="Materia: " HorizontalAlignment="Left" Margin="8,133,0,0" VerticalAlignment="Top" FontSize="12"/>
+        <TextBox x:Name="txbTituloD" HorizontalAlignment="Left" Height="25" Margin="91,89,0,0" TextWrapping="Wrap" Text="TextBox" FontSize="12" VerticalAlignment="Top" Width="81"/>
+        <TextBox x:Name="txbMateriaD" HorizontalAlignment="Left" Height="23" Margin="91,125,0,0" TextWrapping="Wrap" Text="TextBox" FontSize="12" VerticalAlignment="Top" Width="81"/>
+        <Label Content="Materia: " HorizontalAlignment="Left" Margin="17,122,0,0" VerticalAlignment="Top" FontSize="12"/>
 
     </Grid>
 </UserControl>
